@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR BY ZH</title>
+</head>
+<style>
+       body{
+         margin: 0;
+         font-family: 'Segoe UI', sans-serif;
+         background: #eef1f6;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+}
+ .main {
+       background: #f1f3f6;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px #4d4e50, -10px -10px 30px #ffffff;
+  margin-top: 30px;
+  width: 280px;
+ }
+
+button{
+    height:60px;
+  width:60px;
+  border-radius: 50%;
+  background-color: rgba(141, 138, 138, 0.769);
+  font-weight: bold;
+  font-size: 30px;
+  border:1px solid black;
+  margin-left: 5px;
+  margin-top: 10px;
+  cursor:pointer;
+}
+h1{
+    font-size: 30px;
+    color: black;
+   }
+   input{
+    
+border:1px solid black;
+outline: none;
+padding: 10px 20px;
+   }
+
+
+</style>
+<body>
+    <h1 class="title">Calculator by ZH</h1>
+    <div class="main">
+      <h1 id="calculator"></h1>
+      <input type="text" id="one">
+      <div class="01">
+         <button onclick="zaid('7')">7</button>
+         <button onclick="zaid('8')">8</button>
+         <button onclick="zaid('9')">9</button>
+         <button onclick="zaid('*')">*</button>
+</div>
+      <div class="01">
+        <button onclick="zaid('4')">4</button>
+        <button onclick="zaid('5')">5</button>
+        <button onclick="zaid('6')">6</button>
+        <button onclick="zaid('-')">-</button>
+      </div>
+<div class="01">
+         <button onclick="zaid('1')">1</button>
+         <button onclick="zaid('2')">2</button>
+         <button onclick="zaid('3')">3</button>
+         <button onclick="zaid('+')">+</button>
+</div>
+<div class="01">
+        <button onclick="zaid('00')">00</button>
+        <button onclick="zaid('0')">0</button>
+        <button onclick="zaid('.')">.</button>
+        <button onclick="zaid('/')">/</button>
+        
+</div>
+    </div>
+</body>
+<script src="./calculator.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
